@@ -148,7 +148,7 @@ function App() {
 
         // 2) Getting actual weather
         const currentGeoRes = await fetch(
-          `http://api.openweathermap.org/geo/1.0/reverse?lat=${lat}&lon=${long}&limit=${limit}&appid=${kalua}`
+          `https://api.openweathermap.org/geo/1.0/reverse?lat=${lat}&lon=${long}&limit=${limit}&appid=${kalua}`
         );
         const currentGeoData = await currentGeoRes.json();
         console.log(currentGeoData);
