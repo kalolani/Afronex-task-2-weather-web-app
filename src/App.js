@@ -197,25 +197,7 @@ function App() {
   }, [cityName]);
   console.log(position);
 
-  function removeDecimalPoints(inputString) {
-    // Split the input string into an array of substrings
-    const substrings = inputString.split(".");
-
-    // Remove the decimal points and their following digits from each substring
-    const outputString = substrings
-      .map((substring) => {
-        const indexOfDecimal = substring.indexOf(".");
-        if (indexOfDecimal !== -1) {
-          return substring.slice(0, indexOfDecimal);
-        } else {
-          return substring;
-        }
-      })
-      .join("");
-
-    return outputString;
-  }
-
+ 
   const degreeSymbol = "\u00B0";
   let weatherIcon;
   if (weatherCode === "01d" || weatherCode === "01n") {
