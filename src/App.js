@@ -172,7 +172,7 @@ function App() {
 
         // 2) Getting actual weather
         const currentWeatherRes = await fetch(
-          `http://api.openweathermap.org/data/2.5/weather?q=${cityName}&units=metric&appid=${kalua}`
+          `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&units=metric&appid=${kalua}`
         );
         const currentWeatherData = await currentWeatherRes.json();
         console.log(currentWeatherData);
