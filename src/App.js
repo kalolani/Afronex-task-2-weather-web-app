@@ -166,8 +166,6 @@ function App() {
   }, [lat, long]);
 
   useEffect(() => {
-    if (!lat && !long) return;
-
     const fetchCurrentWeather = async () => {
       try {
         setIsLoadingMetro(true);
