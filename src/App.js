@@ -245,7 +245,7 @@ function App() {
       <p className="text-white text-7xl phone:text-normal tablet:text-normal ">
         Afro Weather
       </p>
-      <div className="w-6/12 flex gap-x-4 phone:flex-col gap-4 items-center laptop:flex-row w-5/12">
+      <div className="w-6/12 flex gap-x-4 phone:flex-col gap-4 items-center laptop:flex-row w-5/12 desktop:w-4/12">
         <button
           onClick={getPosition}
           className="w-11/12 pointer:cursor bg-sky-400 hover:bg-sky-200 py-2  rounded text-black phone:w-10/12 py-4 p-tab:w-7/12 text-md tablet:text-2xl py-4 w-5/12 laptop:py-4 w-5/12  desktop:text-4xl w-6/12 bigdesktop:w-5/12"
