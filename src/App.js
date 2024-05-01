@@ -222,7 +222,7 @@ function App() {
   return (
     <div className="app bg-blue-950 h-full w-full py-4 m-auto">
       <p className="text-white text-7xl phone:text-normal tablet:text-normal ">
-        Afro Weathers
+        Afro Weather
       </p>
       <div className="w-6/12 flex gap-x-4 phone:flex-col gap-4 items-center laptop:flex-row w-5/12 desktop:w-4/12">
         <button
